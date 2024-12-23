@@ -1,8 +1,17 @@
-import daisyui from "daisyui";
-
-export default {
+const daisyui = require("daisyui"); 
+module.exports = {
   plugins: [daisyui],
-  daisyui: { themes: [], logs: false },
-  content: ["./**/*.tsx"],
-  theme: { container: { center: true } },
+  daisyui: {
+    themes: [], // Defina os temas ou use o padrão
+    logs: false,
+  },
+  content: ["./*/.tsx"],
+  theme: {
+    container: {
+      center: true,
+    },
+    screens: {
+      "3xl": "1920px",
+    }
+  },
 };
