@@ -7,6 +7,12 @@
       "section": {
         "__resolveType": "site/sections/Header.tsx"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
