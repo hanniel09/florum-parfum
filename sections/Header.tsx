@@ -57,6 +57,7 @@ export default function Section() {
           <li class="text-base cursor-pointer mr-[10px]">high perfumery for Women's</li>
         </ul>
       </nav>
+      <div class="border-t border-gray-400 mt-2" />
     </section>
   )
 }
