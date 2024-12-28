@@ -11,6 +11,11 @@ module.exports = {
       center: true,
     },
     screens: {
+    },
+    extend: {
+      fontFamily: {
+        montserrant: ['Montserrant', 'sans-serif']
+      }
     }
   },
 };

@@ -393,12 +393,12 @@ video {
   display: none;
 }
 
-  /* Allow changing font family via CMS */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+  
   html {
     font-family: var(--font-family);
   }
 
-  /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -543,7 +543,6 @@ video {
     max-width: 1536px;
   }
 }
-/** Prevent scroll when modal is open */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -606,6 +605,9 @@ video {
 .top-4 {
   top: 1rem;
 }
+.top-\[-50px\] {
+  top: -50px;
+}
 .top-\[41px\] {
   top: 41px;
 }
@@ -653,6 +655,9 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -682,6 +687,12 @@ video {
 }
 .mt-4 {
   margin-top: 1rem;
+}
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+.mt-\[40px\] {
+  margin-top: 40px;
 }
 .mt-\[5px\] {
   margin-top: 5px;
@@ -730,6 +741,9 @@ video {
 }
 .h-\[3px\] {
   height: 3px;
+}
+.h-\[420px\] {
+  height: 420px;
 }
 .h-auto {
   height: auto;
@@ -845,6 +859,15 @@ video {
 }
 .max-w-\[1440px\] {
   max-width: 1440px;
+}
+.max-w-\[160px\] {
+  max-width: 160px;
+}
+.max-w-\[1620px\] {
+  max-width: 1620px;
+}
+.max-w-\[1920px\] {
+  max-width: 1920px;
 }
 .max-w-\[2px\] {
   max-width: 2px;
@@ -967,6 +990,9 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .gap-1 {
   gap: 0.25rem;
 }
@@ -1024,6 +1050,9 @@ video {
 }
 .text-nowrap {
   text-wrap: nowrap;
+}
+.text-pretty {
+  text-wrap: pretty;
 }
 .break-words {
   overflow-wrap: break-word;
@@ -1091,6 +1120,10 @@ video {
 .border-t {
   border-top-width: 1px;
 }
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -1117,6 +1150,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -1124,6 +1161,14 @@ video {
 .bg-green-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
 }
 .bg-slate-100 {
   --tw-bg-opacity: 1;
@@ -1187,9 +1232,17 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -1226,6 +1279,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1443,7 +1500,6 @@ video {
 .duration-500 {
   transition-duration: 500ms;
 }
-/** Remove scrollbar from overflow-auto */
 .placeholder\:text-slate-400::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -1459,13 +1515,24 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
 .hover\:bg-green-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
+.hover\:bg-green-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+}
 .hover\:bg-slate-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

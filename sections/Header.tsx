@@ -27,7 +27,7 @@ export default function Section() {
             <IconMenu2 class="w-6 h-6 mt-2 text-gray-700" />
            )}
         </button> 
-        <h1 class="mt-1 text-[20px] font-[700] text-nowrap lg:text-[48px] lg:font-[700]">Florum parfum</h1>
+        <h1 class="mt-1 font-montserrant text-[20px] font-[700] text-nowrap lg:text-[48px] lg:font-[700]">Florum parfum</h1>
 
         <div class="flex items-center y-0 top-0 2xl:p-2">
           <input class="w-full min-w-[180px] placeholder:text-slate-400 
