@@ -26,9 +26,12 @@ export default function Section() {
           ): (
             <IconMenu2 class="w-6 h-6 mt-2 text-gray-700" />
            )}
-        </button> 
-        <h1 class="mt-1 font-montserrant text-[20px] font-[700] text-nowrap lg:text-[48px] lg:font-[700]">Florum parfum</h1>
-
+        </button>
+        <div>
+          <a href="https://localhost--florum-parfum.deco.site/" >
+            <h1 class="mt-1 text-[20px] font-[700] text-zinc-900 text-nowrap lg:text-[48px] lg:font-[700]">Florum Parfum</h1>
+          </a>
+        </div> 
         <div class="flex items-center y-0 top-0 2xl:p-2">
           <input class="w-full min-w-[180px] placeholder:text-slate-400 
           text-slate-700 text-sm border border-slate-600 rounded-md px-4 py-4
@@ -38,7 +41,9 @@ export default function Section() {
           <IconSearch class="w-6 h-6 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none 2xl:hidden" />
           <IconHeart class="w-6 h-6 2xl:w-12 2xl:h-12 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
           <IconShoppingBag class="w-6 h-6 2xl:w-12 2xl:h-12 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
-          <IconUser class="w-6 h-6 2xl:w-12 2xl:h-12 mt-2 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
+           <a href="/myuser">
+            <IconUser class="w-6 h-6 2xl:w-8 2xl:h-8 mt-2 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
+           </a>
         </div>
       </div>
 
