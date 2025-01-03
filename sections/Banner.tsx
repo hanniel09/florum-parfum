@@ -17,7 +17,7 @@ export default function section() {
             <h2 class="text-[70px] text-zinc-800 leading-10 font-bold p-2">
               West
             </h2>
-            <h3 class="text-[40px] text-zinc-800 leading-10 font-bold mt-[10px] p-2">
+            <h3 class="text-[40px] text-zinc-800 leading-10 font-bold mt-[10px] p-2 capitalize">
               The meaning of elegance
             </h3>
           </div>
