@@ -9,7 +9,7 @@ import * as $$$$$$1 from "./sections/Florumparfum.tsx";
 import * as $$$$$$2 from "./sections/Footer.tsx";
 import * as $$$$$$3 from "./sections/Header.tsx";
 import * as $$$$$$4 from "./sections/Hero.tsx";
-import * as $$$$$$5 from "./components/ui/RecommendedPerfume.tsx";
+import * as $$$$$$5 from "./sections/PerfumePage.tsx";
 import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$7 from "./sections/West/Westperfum.tsx";
 
@@ -20,7 +20,7 @@ const manifest = {
     "site/sections/Footer.tsx": $$$$$$2,
     "site/sections/Header.tsx": $$$$$$3,
     "site/sections/Hero.tsx": $$$$$$4,
-    "site/sections/RecommendedPerfume.tsx": $$$$$$5,
+    "site/sections/PerfumePage.tsx": $$$$$$5,
     "site/sections/Theme/Theme.tsx": $$$$$$6,
     "site/sections/West/Westperfum.tsx": $$$$$$7,
   },

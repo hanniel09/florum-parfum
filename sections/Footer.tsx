@@ -53,12 +53,12 @@ export default function Section() {
           <div class="font-bold">Social Media</div>
             <ul class="flex flex-row pt-3 mx-auto text-nowrap">
               <li>
-                <div class="border border-gray-200 rounded-md p-2 hover:bg-gray-200 cursor-pointer">
+                <div class="rounded-md p-2 hover:bg-white cursor-pointer">
                   <IconBrandFacebook class="w-6 h-6" />
                 </div>
               </li>
               <li>
-                <div class="border border-gray-200 rounded-md p-2 hover:bg-gray-200 cursor-pointer">
+                <div class="rounded-md p-2 hover:bg-white cursor-pointer">
                   <IconBrandInstagram class="w-6 h-6" />
                 </div>
               </li>

@@ -4,7 +4,7 @@ import PerfumeDescription from "site/components/ui/PerfumeDesctiption.tsx";
 
 export default function section() {
   return (
-    <section class="max-w-[1440px] w-full mx-auto px-6 lg:px-20 3xl:px-0 py-6">
+    <section class="max-w-[1440px] w-full mx-auto px-6 lg:px-20 3xl:px-0">
       <div class="flex items-start gap-8">
         <div class="flex-shrink-0 ml-6">
           <Image
