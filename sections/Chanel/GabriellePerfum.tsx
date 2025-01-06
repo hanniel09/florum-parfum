@@ -8,7 +8,7 @@ export default function section() {
       <div class="flex items-start gap-8">
         <div class="flex-shrink-0 ml-6">
           <Image
-            src="https://data.decoassets.com/florum-parfum/e49f6005-a5bf-426d-9269-da573ba3e0ac/westperfumepage.jpg"
+            src="https://data.decoassets.com/florum-parfum/2cec7ca4-5f70-49fa-842c-9fe339194dea/parfum01.jpg"
             width={400}
             height={420}
             class="border border-gray-200 rounded"
@@ -19,15 +19,14 @@ export default function section() {
 
         <div class="flex flex-col gap-4 ml-8">
           <h1 class="text-2xl font-bold capitalize">
-            west perfume the meaning of elegance for Women's 100ml
+            Chanel Gabrielle 100ml
           </h1>
           <p class="text-sm text-gray-600">
-            Sophisticated and timeless, West embodies feminine grace with
-            delicate floral notes, a hint of citrus, and a warm, sensual finish.
-            Perfect for every refined moment.
+            A luminous and sophisticated floral fragrance that captures the
+            essence of elegance and freedom.
           </p>
           <div class="flex flex-col gap-2 mt-4">
-            <p class="text-2xl font-semibold text-gray-800">$99.90</p>
+            <p class="text-2xl font-semibold text-gray-800">$79.90</p>
             <div class="mt-2 text-gray-500 text-sm">
               <a href="/shipping" class="block">
                 <span class="text-gray-600 font-medium underline">
@@ -48,17 +47,16 @@ export default function section() {
       </div>
       <div class="mt-3">
         <PerfumeDescription
-          title="West Perfume"
-          paragraph1="West Perfume is a timeless fragrance crafted for women who
-          exude confidence and grace. Its opening notes feature a refreshing blend 
-          of bergamot and sparkling citrus, evoking a sense of vitality and energy.
-          As it unfolds, the heart reveals delicate floral notes of jasmine and rose, symbolizing femininity and sophistication.
-          The base is warm and sensual, with hints of amber and sandalwood, leaving a captivating trail that lingers throughout the day."
-          paragraph2="
-          Designed for every refined occasion, West is more than just a perfume;
-          it's an expression of character. Perfect for romantic evenings, formal events, or everyday luxury,
-          this fragrance complements the modern woman who cherishes elegance in every aspect of her life. 
-          Encased in a sleek, minimalist bottle, West Perfume is not just a scent—it's a statement."
+          title="Chanel Gabrielle"
+          paragraph1="Chanel Gabrielle is a celebration of femininity and individuality, 
+            crafted with a bouquet of exquisite white flowers. At its heart, jasmine, ylang-ylang,
+            orange blossom, and tuberose come together to create a symphony of radiant florals.
+            The top notes offer a subtle citrusy brightness, while the base lingers with warm,
+            creamy notes, adding depth and sensuality."
+          paragraph2="Inspired by the bold and passionate nature of Gabrielle Chanel, 
+            this fragrance exudes confidence and grace. It is more than a scent;
+            it’s a statement for those who dare to shine their own light,
+            making it the perfect companion for any occasion that calls for elegance and allure."
         />
       </div>
     </section>

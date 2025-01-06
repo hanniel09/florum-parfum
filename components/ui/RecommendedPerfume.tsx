@@ -27,9 +27,9 @@ export default function RecommendedCarousel({ perfumes }: RecommendedCarouselPro
               <Image
                 src={perfume.imageUrl}
                 alt={perfume.name}
-                width={300}
-                height={300}
-                class="rounded-md mb-4"
+                width={250}
+                height={250}
+                class="rounded-md mb-4 max-w-[250px]"
               />
               <h3 class="text-lg font-bold text-gray-700">{perfume.name}</h3>
               <p class="text-sm text-gray-600 mt-2">{perfume.description}</p>
