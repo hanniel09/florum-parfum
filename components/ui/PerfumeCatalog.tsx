@@ -62,7 +62,7 @@ export default function PerfumeCatalog() {
     },
     {
       id: 8,
-      name: "Coco noir Chanel",
+      name: "Coco Noir Chanel",
       image: "https://data.decoassets.com/florum-parfum/6b4b2c7e-8ce3-4526-978b-cf4d916830a1/coconoir-chanel.jpg",
       price: "$299.90",
       url: "/coco-noir-chanel"

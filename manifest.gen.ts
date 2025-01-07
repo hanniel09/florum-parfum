@@ -5,26 +5,34 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Banner.tsx";
-import * as $$$$$$1 from "./sections/Chanel/GabriellePerfum.tsx";
-import * as $$$$$$2 from "./sections/Florumparfum.tsx";
-import * as $$$$$$3 from "./sections/Footer.tsx";
-import * as $$$$$$4 from "./sections/Header.tsx";
-import * as $$$$$$5 from "./sections/Hero.tsx";
-import * as $$$$$$6 from "./sections/PerfumePage.tsx";
-import * as $$$$$$7 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$8 from "./sections/West/Westperfum.tsx";
+import * as $$$$$$1 from "./sections/Chanel/BleuDeChanelPerfum.tsx";
+import * as $$$$$$2 from "./sections/Chanel/CocoNoirPerfum.tsx";
+import * as $$$$$$3 from "./sections/Chanel/GabriellePerfum.tsx";
+import * as $$$$$$4 from "./sections/Chanel/NumberFivePerfum.tsx";
+import * as $$$$$$5 from "./sections/Dior/SauvagePerfum.tsx";
+import * as $$$$$$6 from "./sections/Florumparfum.tsx";
+import * as $$$$$$7 from "./sections/Footer.tsx";
+import * as $$$$$$8 from "./sections/Header.tsx";
+import * as $$$$$$9 from "./sections/Hero.tsx";
+import * as $$$$$$10 from "./sections/RecommendedPerfumeSection.tsx";
+import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/West/Westperfum.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Banner.tsx": $$$$$$0,
-    "site/sections/Chanel/GabriellePerfum.tsx": $$$$$$1,
-    "site/sections/Florumparfum.tsx": $$$$$$2,
-    "site/sections/Footer.tsx": $$$$$$3,
-    "site/sections/Header.tsx": $$$$$$4,
-    "site/sections/Hero.tsx": $$$$$$5,
-    "site/sections/PerfumePage.tsx": $$$$$$6,
-    "site/sections/Theme/Theme.tsx": $$$$$$7,
-    "site/sections/West/Westperfum.tsx": $$$$$$8,
+    "site/sections/Chanel/BleuDeChanelPerfum.tsx": $$$$$$1,
+    "site/sections/Chanel/CocoNoirPerfum.tsx": $$$$$$2,
+    "site/sections/Chanel/GabriellePerfum.tsx": $$$$$$3,
+    "site/sections/Chanel/NumberFivePerfum.tsx": $$$$$$4,
+    "site/sections/Dior/SauvagePerfum.tsx": $$$$$$5,
+    "site/sections/Florumparfum.tsx": $$$$$$6,
+    "site/sections/Footer.tsx": $$$$$$7,
+    "site/sections/Header.tsx": $$$$$$8,
+    "site/sections/Hero.tsx": $$$$$$9,
+    "site/sections/RecommendedPerfumeSection.tsx": $$$$$$10,
+    "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/West/Westperfum.tsx": $$$$$$12,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

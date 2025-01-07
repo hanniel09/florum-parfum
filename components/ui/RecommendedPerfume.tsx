@@ -8,11 +8,11 @@ interface RecommendedPerfume {
   url: string;
 }
 
-interface RecommendedCarouselProps {
+interface RecommendedPerfumesProps {
   perfumes: RecommendedPerfume[];
 }
 
-export default function RecommendedCarousel({ perfumes }: RecommendedCarouselProps) {
+export default function RecommendedPerfumes({ perfumes }: RecommendedPerfumesProps) {
   return (
     <section class="max-w-[1440px] mx-auto px-6 lg:px-20 py-10">
       <h2 class="text-2xl font-semibold mb-6 text-center">Recommended for You</h2>
@@ -22,7 +22,7 @@ export default function RecommendedCarousel({ perfumes }: RecommendedCarouselPro
             <a
               key={index}
               href={perfume.url}
-              class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow min-h-[300px]"
+              class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow min-h-[300px] hover:scale-110"
             >
               <Image
                 src={perfume.imageUrl}
