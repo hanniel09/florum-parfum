@@ -19,9 +19,10 @@ import * as $$$$$$11 from "./sections/Footer.tsx";
 import * as $$$$$$12 from "./sections/Header.tsx";
 import * as $$$$$$13 from "./sections/HeaderUserPage.tsx";
 import * as $$$$$$14 from "./sections/Hero.tsx";
-import * as $$$$$$15 from "./sections/RecommendedPerfumeSection.tsx";
-import * as $$$$$$16 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$17 from "./sections/West/Westperfum.tsx";
+import * as $$$$$$15 from "./sections/MyPurchases.tsx";
+import * as $$$$$$16 from "./sections/RecommendedPerfumeSection.tsx";
+import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$18 from "./sections/West/Westperfum.tsx";
 
 const manifest = {
   "sections": {
@@ -40,9 +41,10 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$12,
     "site/sections/HeaderUserPage.tsx": $$$$$$13,
     "site/sections/Hero.tsx": $$$$$$14,
-    "site/sections/RecommendedPerfumeSection.tsx": $$$$$$15,
-    "site/sections/Theme/Theme.tsx": $$$$$$16,
-    "site/sections/West/Westperfum.tsx": $$$$$$17,
+    "site/sections/MyPurchases.tsx": $$$$$$15,
+    "site/sections/RecommendedPerfumeSection.tsx": $$$$$$16,
+    "site/sections/Theme/Theme.tsx": $$$$$$17,
+    "site/sections/West/Westperfum.tsx": $$$$$$18,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

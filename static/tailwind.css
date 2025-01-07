@@ -584,6 +584,9 @@ video {
 .left-4 {
   left: 1rem;
 }
+.left-\[-60px\] {
+  left: -60px;
+}
 .left-\[120px\] {
   left: 120px;
 }
@@ -643,6 +646,10 @@ video {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -672,6 +679,9 @@ video {
 }
 .ml-8 {
   margin-left: 2rem;
+}
+.ml-\[-60px\] {
+  margin-left: -60px;
 }
 .mr-2 {
   margin-right: 0.5rem;
@@ -811,6 +821,9 @@ video {
 .min-h-\[100px\] {
   min-height: 100px;
 }
+.min-h-\[140px\] {
+  min-height: 140px;
+}
 .min-h-\[157px\] {
   min-height: 157px;
 }
@@ -890,11 +903,17 @@ video {
 .min-w-\[4px\] {
   min-width: 4px;
 }
+.min-w-\[780px\] {
+  min-width: 780px;
+}
 .min-w-full {
   min-width: 100%;
 }
 .max-w-6xl {
   max-width: 72rem;
+}
+.max-w-\[1200px\] {
+  max-width: 1200px;
 }
 .max-w-\[139px\] {
   max-width: 139px;
@@ -1093,6 +1112,11 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .self-stretch {
   align-self: stretch;
@@ -1369,6 +1393,10 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1433,11 +1461,17 @@ video {
 .text-\[15px\] {
   font-size: 15px;
 }
+.text-\[16px\] {
+  font-size: 16px;
+}
 .text-\[20px\] {
   font-size: 20px;
 }
 .text-\[24px\] {
   font-size: 24px;
+}
+.text-\[28px\] {
+  font-size: 28px;
 }
 .text-\[40px\] {
   font-size: 40px;

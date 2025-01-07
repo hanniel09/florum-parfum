@@ -8,7 +8,7 @@ export default function section() {
       <div class="flex items-start gap-8">
         <div class="flex-shrink-0 ml-6">
           <Image
-            src="https://data.decoassets.com/florum-parfum/0f08aa49-7b2c-4e8a-92fd-0c76096acaee/dior-sauvage.jpg"
+            src="https://data.decoassets.com/florum-parfum/687191ec-037d-4109-8182-57e8c9ecfd4c/FeraGranita.jpg"
             width={400}
             height={420}
             class="border border-gray-200 rounded"
