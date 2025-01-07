@@ -58,7 +58,7 @@ export default function section() {
     <section class="max-w-[1440px] w-full mx-auto px-6 lg:px-20 py-6">
       <div class="flex justify-center">
         <h1 class="text-[28px] font-semibold">
-          Recent Purchases✨
+          Items added to bag
         </h1>
       </div>
       <div class="max-w-[1200px] mx-auto px-6 flex flex-col justify-center ">
@@ -95,6 +95,12 @@ export default function section() {
             </a>
           ))}
         </div>
+      </div>
+      <div class="flex justify-end items-center max-w-[1200px] ">
+        <p class="text-[16px] font-semibold">Total at bag: $1,719.30</p>
+        <button class="bg-green-700 text-white mx-4 p-4 rounded shadow-lg hover:bg-green-800">
+          Complete the purchase 
+        </button>
       </div>
     </section>
   );
