@@ -14,16 +14,17 @@ import * as $$$$$$6 from "./sections/Chanel/CocoNoirPerfum.tsx";
 import * as $$$$$$7 from "./sections/Chanel/GabriellePerfum.tsx";
 import * as $$$$$$8 from "./sections/Chanel/NumberFivePerfum.tsx";
 import * as $$$$$$9 from "./sections/Dior/SauvagePerfum.tsx";
-import * as $$$$$$10 from "./sections/Florumparfum.tsx";
-import * as $$$$$$11 from "./sections/Footer.tsx";
-import * as $$$$$$12 from "./sections/Header.tsx";
-import * as $$$$$$13 from "./sections/HeaderUserPage.tsx";
-import * as $$$$$$14 from "./sections/Hero.tsx";
-import * as $$$$$$15 from "./sections/MyBag.tsx";
-import * as $$$$$$16 from "./sections/MyPurchases.tsx";
-import * as $$$$$$17 from "./sections/RecommendedPerfumeSection.tsx";
-import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$19 from "./sections/West/Westperfum.tsx";
+import * as $$$$$$10 from "./sections/Favorites.tsx";
+import * as $$$$$$11 from "./sections/Florumparfum.tsx";
+import * as $$$$$$12 from "./sections/Footer.tsx";
+import * as $$$$$$13 from "./sections/Header.tsx";
+import * as $$$$$$14 from "./sections/HeaderSimplified.tsx";
+import * as $$$$$$15 from "./sections/Hero.tsx";
+import * as $$$$$$16 from "./sections/MyBag.tsx";
+import * as $$$$$$17 from "./sections/MyPurchases.tsx";
+import * as $$$$$$18 from "./sections/RecommendedPerfumeSection.tsx";
+import * as $$$$$$19 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$20 from "./sections/West/Westperfum.tsx";
 
 const manifest = {
   "sections": {
@@ -37,16 +38,17 @@ const manifest = {
     "site/sections/Chanel/GabriellePerfum.tsx": $$$$$$7,
     "site/sections/Chanel/NumberFivePerfum.tsx": $$$$$$8,
     "site/sections/Dior/SauvagePerfum.tsx": $$$$$$9,
-    "site/sections/Florumparfum.tsx": $$$$$$10,
-    "site/sections/Footer.tsx": $$$$$$11,
-    "site/sections/Header.tsx": $$$$$$12,
-    "site/sections/HeaderUserPage.tsx": $$$$$$13,
-    "site/sections/Hero.tsx": $$$$$$14,
-    "site/sections/MyBag.tsx": $$$$$$15,
-    "site/sections/MyPurchases.tsx": $$$$$$16,
-    "site/sections/RecommendedPerfumeSection.tsx": $$$$$$17,
-    "site/sections/Theme/Theme.tsx": $$$$$$18,
-    "site/sections/West/Westperfum.tsx": $$$$$$19,
+    "site/sections/Favorites.tsx": $$$$$$10,
+    "site/sections/Florumparfum.tsx": $$$$$$11,
+    "site/sections/Footer.tsx": $$$$$$12,
+    "site/sections/Header.tsx": $$$$$$13,
+    "site/sections/HeaderSimplified.tsx": $$$$$$14,
+    "site/sections/Hero.tsx": $$$$$$15,
+    "site/sections/MyBag.tsx": $$$$$$16,
+    "site/sections/MyPurchases.tsx": $$$$$$17,
+    "site/sections/RecommendedPerfumeSection.tsx": $$$$$$18,
+    "site/sections/Theme/Theme.tsx": $$$$$$19,
+    "site/sections/West/Westperfum.tsx": $$$$$$20,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

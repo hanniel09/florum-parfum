@@ -1,6 +1,6 @@
 import Image from "apps/website/components/Image.tsx";
 
-interface Purchases {
+interface Perfumes {
   id: number;
   perfumeName: string;
   price: string;
@@ -11,7 +11,7 @@ interface Purchases {
 }
 
 export default function section() {
-  const purchases: Purchases[] = [
+  const perfumes: Perfumes[] = [
     {
       id: 1,
       perfumeName: "Dior Sauvage",
@@ -63,16 +63,16 @@ export default function section() {
       </div>
       <div class="max-w-[1200px] mx-auto px-6 flex flex-col justify-center ">
         <div class="flex flex-col justify-center my-3 space-y-5 ">
-          {purchases.slice(0, 5).map((purchases, index) => (
+          {perfumes.slice(0, 5).map((perfumes, index) => (
             <a
               key={index}
-              href={purchases.perfumeUrl}
+              href={perfumes.perfumeUrl}
               class="flex justify-around items-center bg-white rounded-lg shadow-md hover:shadow-lg 
                transition-shadow min-h-[140px] min-w-[780px] hover:scale-110"
             >
               <Image
-                src={purchases.imageUrl}
-                alt={purchases.perfumeName}
+                src={perfumes.imageUrl}
+                alt={perfumes.perfumeName}
                 width={70}
                 height={70}
                 class="rounded-md mb-4 ml-3"
@@ -80,16 +80,16 @@ export default function section() {
 
               <div class="flex justify-between flex-1 items-center ml-4 mr-2">
                 <h1 class="text-[16px] font-semibold w-[250px]">
-                  {purchases.perfumeName}
+                  {perfumes.perfumeName}
                 </h1>
                 <p class="text-[16px]  font-semibold w-[120px] text-center ">
-                  {purchases.price}
+                  {perfumes.price}
                 </p>
                 <p class="text-[16px] font-semibold w-[80px] text-center">
-                  Units: {purchases.quantity}
+                  Units: {perfumes.quantity}
                 </p>
                 <p class="text-[16px] font-semibold w-[150px] text-center">
-                  Total price: {purchases.totalPrice}
+                  Total price: {perfumes.totalPrice}
                 </p>
               </div>
             </a>

@@ -5,7 +5,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HeaderUserPage.tsx"
+        "__resolveType": "site/sections/HeaderSimplified.tsx"
       }
     },
     {
