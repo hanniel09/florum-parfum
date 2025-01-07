@@ -69,7 +69,7 @@ export default function PerfumeCatalog() {
     }, 
     {
       id: 9,
-      name: "Fera Granita Aqua Allegoria",
+      name: "Fera Granita",
       image: "https://data.decoassets.com/florum-parfum/687191ec-037d-4109-8182-57e8c9ecfd4c/FeraGranita.jpg",
       price: "$169.90",
       url: "/fera-granita"
