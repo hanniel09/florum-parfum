@@ -85,7 +85,7 @@ export default function PerfumeCatalog() {
 
   return (
     <section class="max-w-[1440px] w-full mx-auto px-6 lg:px-20 2xl:px-0 3xl:px-0 py-3">
-      <h2 class="text-2xl font-bold mb-6 text-center">The Highest of the Perfumary✨</h2>
+      <h2 class="text-2xl font-bold mb-6 text-center cursor-default">The Highest of the Perfumary✨</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 ">
         {Array.from({ length: 2 }).flatMap(() =>
           perfumes.map((perfume) => (

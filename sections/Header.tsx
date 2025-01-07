@@ -27,7 +27,7 @@ export default function Section() {
         </button>
         <div>
           <a href="https://localhost--florum-parfum.deco.site/">
-            <h1 class="mt-1 text-[20px] font-[700] text-zinc-900 text-nowrap lg:text-[48px] lg:font-[700]">
+            <h1 class="mt-1 text-[20px] font-[700] text-zinc-900 text-nowrap lg:text-[48px] lg:font-[700] cursor-pointer">
               Florum Parfum
             </h1>
           </a>
@@ -42,15 +42,15 @@ export default function Section() {
           />
           <IconSearch class="w-6 h-6 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none 2xl:hidden" />
 
-          <a href="/favorites">
+          <a href="/favorites" class="cursor-pointer">
             <IconHeart class="w-6 h-6 2xl:w-8 2xl:h-8 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
           </a>
 
-          <a href="/cart">
+          <a href="/cart" class="cursor-pointer">
             <IconShoppingBag class="w-6 h-6 2xl:w-8 2xl:h-8 mt-2 mr-3 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
           </a>
 
-          <a href="/myuser">
+          <a href="/myuser" class="cursor-pointer">
             <IconUser class="w-6 h-6 2xl:w-8 2xl:h-8 mt-2 rounded hover:bg-slate-100 hover:rounded focus:outline-none" />
           </a>
         </div>

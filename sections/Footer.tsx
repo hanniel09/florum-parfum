@@ -7,7 +7,7 @@ export default function Section() {
       <div class="max-w-[1620px] w-full mx-auto px-6 lg:px-20 3xl:px-0 py-3">
         <div class="flex justify-around">
           <div>
-            <div class="font-bold">CUSTOMER SUPPORT</div>
+            <div class="font-bold cursor-default">CUSTOMER SUPPORT</div>
             <ul class="flex flex-col pt-3 mx-auto text-nowrap">
               <li class="cursor-pointer hover:underline">Account</li>
               <li class="cursor-pointer hover:underline">Contact Us</li>
@@ -18,7 +18,7 @@ export default function Section() {
             </ul>
           </div>
           <div>
-          <div class="font-bold">SHOP</div>
+          <div class="font-bold cursor-default">SHOP</div>
             <ul class="flex flex-col pt-3 mx-auto text-nowrap">
               <li class="cursor-pointer hover:underline">Shop all</li>
               <li class="cursor-pointer hover:underline">Best Sellers</li>
@@ -31,7 +31,7 @@ export default function Section() {
             </ul>
           </div>
           <div>
-          <div class="font-bold">ABOUT US</div>
+          <div class="font-bold cursor-default">ABOUT US</div>
             <ul class="flex flex-col pt-3 mx-auto text-nowrap">
               <li class="cursor-pointer hover:underline">Our Story</li>
               <li class="cursor-pointer hover:underline">Become a Florum</li>
@@ -41,7 +41,7 @@ export default function Section() {
             </ul>
           </div>
           <div>
-          <div class="font-bold">Payaments</div>
+          <div class="font-bold cursor-default">Payaments</div>
             <ul class="flex flex-col pt-3 mx-auto text-nowrap">
               <li class="cursor-pointer hover:underline">American Express</li>
               <li class="cursor-pointer hover:underline">Mastercard</li>
@@ -50,7 +50,7 @@ export default function Section() {
             </ul>
           </div>
           <div>
-          <div class="font-bold">Social Media</div>
+          <div class="font-bold cursor-default">Social Media</div>
             <ul class="flex flex-row pt-3 mx-auto text-nowrap">
               <li>
                 <div class="rounded-md p-2 hover:bg-white cursor-pointer">
@@ -68,7 +68,7 @@ export default function Section() {
       </div>
       <div>
         <div class="flex justify-center mt-2">
-          <p class="text-xs">© 2024 Florum Parfum. All rights reserved.</p>
+          <p class="text-xs cursor-default">© 2024 Florum Parfum. All rights reserved.</p>
         </div>
       </div>
     </section>
